@@ -1,0 +1,53 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+  border-color: transparent;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $indent;
+}
+
+// .card-set-item {
+//   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
+// }

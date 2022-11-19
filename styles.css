@@ -96,8 +96,6 @@ img {
 }
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -105,11 +103,14 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
+.header__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo > .primary {
   color: var(--accent-color);
 }
-.logo > .secondary {
+.logo__secondary {
   color: var(--logo-color);
 }
 .main-nav {
