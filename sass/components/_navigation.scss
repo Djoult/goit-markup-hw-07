@@ -37,7 +37,7 @@
     left: 0;
     bottom: 0;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     opacity: 0;
     animation: show $timing-function;
     animation-fill-mode: forwards;
