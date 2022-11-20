@@ -50,7 +50,7 @@
 .subscribe-form__input:not(:placeholder-shown) + .subscribe-form__label {
   pointer-events: none;
   color: $primary-color;
-  transform: translate(calc(-1 * (100%+32px)), -50%);
+  transform: translate(calc(-1 * (100% + 32px)), -50%);
 }
 .subscribe-form__button {
   display: block;
