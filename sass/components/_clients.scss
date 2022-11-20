@@ -14,10 +14,10 @@
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid $clients-logo-color;
+  @include border-generator($clients-logo-color);
   border-radius: 4px;
   color: $clients-logo-color;
-  transition: color $timing-function, border-color 250ms $timing-function;
+  transition: color $timing-function, border-color $timing-function;
   &:hover,
   &:focus {
     color: $accent-color;

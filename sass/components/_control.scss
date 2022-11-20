@@ -18,8 +18,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  transition: color $timing-function, background-color $timing-function,
-    box-shadow 250ms $timing-function;
+  transition: color $timing-function, background-color $timing-function, box-shadow $timing-function;
   &:hover,
   &:focus {
     background-color: $accent-color;

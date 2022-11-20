@@ -42,11 +42,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $indent;
-}
+
 .section--without-padding {
   padding-bottom: 0;
 }
@@ -63,13 +59,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.title{
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
-// .card-set-item {
-//   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
-// }
+
